@@ -10,7 +10,7 @@ reqly muestra y edita esos documentos en una interfaz web, en un solo lugar, y h
 
 ## Métrica de éxito
 
-Cero huecos de trazabilidad en los requisitos "debe" antes de declarar un proyecto terminado. Un hueco es un requisito "debe" no retirado sin caso de uso o sin criterios verificables.
+Cero huecos de trazabilidad en los requisitos funcionales "debe" antes de declarar un proyecto terminado. Un hueco es un requisito funcional "debe" no retirado sin caso de uso o sin criterios verificables. Los requisitos no funcionales se verifican con criterios y no requieren caso de uso.
 
 ## Alcance de v1
 

@@ -33,6 +33,7 @@ Lista de los elementos [PENDIENTE] y [SUPUESTO] del diseño de reqly, con quién
 | P-08 | Mecanismo para detectar cambios en disco. | Diseño técnico | Abierto |
 | P-09 | Framework de interfaz además de React, y versiones exactas. | Diseño técnico | Abierto |
 | P-10 | Formato de los documentos existentes que se migrarán en cada proyecto. | Usuario propietario, al migrar | Abierto |
+| P-11 | Mecanismo para actualizar una skill fijada en el repo (CU-09). | Diseño técnico | Abierto |
 
 ## Riesgos y dependencias
 

@@ -46,7 +46,7 @@ Términos del negocio y del flujo de trabajo de reqly. Cada término tiene una s
 
 **[PENDIENTE]**: dato que el usuario todavía no tiene. Se marca con quién puede responderlo.
 
-**Hueco de trazabilidad**: requisito "debe" no retirado que no tiene caso de uso o no tiene criterios verificables. _Evitar_: error.
+**Hueco de trazabilidad**: requisito funcional (RF) "debe" no retirado que no tiene caso de uso o no tiene criterios verificables. Los RNF se verifican con sus criterios y no requieren caso de uso. _Evitar_: error.
 
 **Avance**: proporción de requisitos "debe" no retirados que tienen un ticket en estado hecho.
 
