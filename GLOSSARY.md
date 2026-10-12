@@ -48,7 +48,7 @@ Términos del negocio y del flujo de trabajo de reqly. Cada término tiene una s
 
 **Hueco de trazabilidad**: requisito funcional (RF) "debe" no retirado que no tiene caso de uso o no tiene criterios verificables. Los RNF se verifican con sus criterios y no requieren caso de uso. _Evitar_: error.
 
-**Avance**: proporción de requisitos "debe" no retirados que tienen un ticket en estado hecho.
+**Avance**: proporción de requisitos "debe" (RF y RNF) no retirados que tienen un ticket en estado hecho. Los "debería", los "podría", los pendientes y los supuestos no cuentan.
 
 **Matriz de trazabilidad**: tabla que une requisito, caso de uso, diseño, ticket y prueba, y marca los huecos.
 
@@ -62,7 +62,7 @@ Términos del negocio y del flujo de trabajo de reqly. Cada término tiene una s
 
 **Prueba**: verificación de un requisito o caso de uso, guardada como archivo del repo.
 
-**ADR (registro de decisión de arquitectura)**: documento corto y numerado en docs/adr/ que guarda una decisión, su contexto y sus consecuencias. Formato docs/adr/NNNN-slug.md.
+**ADR (registro de decisión de arquitectura)**: documento corto y numerado en docs/adr/ que guarda una decisión, su contexto y sus consecuencias. Formato docs/adr/NNNN-slug.md. Estados: propuesto, aceptado y reemplazado.
 
 **Commit automático**: commit que reqly crea al guardar un archivo, con un mensaje generado a partir del archivo cambiado.
 
@@ -75,3 +75,17 @@ Términos del negocio y del flujo de trabajo de reqly. Cada término tiene una s
 **Formalización**: paso en el que un agente convierte un requerimiento abierto en requisitos formales y casos de uso.
 
 **Migración**: paso en el que un agente convierte documentos o código existentes en requerimientos, por bloques y con revisión del usuario.
+
+**Token de diseño**: valor con nombre, como un color, un espaciado o un radio, que se usa en lugar de un valor suelto. Hay primitivos (valores crudos) y semánticos (roles como texto principal).
+
+**Fundamentos**: tokens, tipografía, espaciado, radios y sombras que usan todos los componentes.
+
+**Componente**: pieza reutilizable de la interfaz, de nivel átomo, molécula u organismo, con variantes y estados.
+
+**Plantilla**: esqueleto de página con contenido de relleno. No tiene contenido real.
+
+**Pantalla**: plantilla con contenido real, en un estado concreto (principal, cargando, vacío, error, éxito).
+
+**Flujo de diseño**: secuencia de pantallas y decisiones que cumple un caso de uso.
+
+**Prototipo**: versión interactiva de pantallas conectadas en Penpot según un flujo de diseño.

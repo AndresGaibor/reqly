@@ -3,14 +3,14 @@ id: CU-01
 tipo: caso-de-uso
 actor: usuario propietario
 estado: formal
-requisitos: [RF-001, RF-002, RF-003, RF-004, RF-005, RF-006, RF-007, RF-008, RF-009, RF-016, RF-024]
+requisitos: [RF-001, RF-002, RF-003, RF-004, RF-005, RF-006, RF-007, RF-008, RF-009, RF-016, RF-024, RF-028]
 ---
 
 # CU-01 Revisar el estado del proyecto
 
 Actor: usuario propietario.
 
-Requisitos: RF-001, RF-002, RF-003, RF-004, RF-005, RF-006, RF-007, RF-008, RF-009, RF-016, RF-024.
+Requisitos: RF-001, RF-002, RF-003, RF-004, RF-005, RF-006, RF-007, RF-008, RF-009, RF-016, RF-024, RF-028.
 
 Precondición: reqly está abierto desde la red de Tailscale.
 

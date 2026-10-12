@@ -12,7 +12,7 @@
 ### Huecos y avance
 - Hueco de trazabilidad: RF "debe" no retirado sin caso de uso o sin criterios verificables.
 - Los RNF no requieren caso de uso, solo criterios verificables.
-- Avance: proporción de requisitos "debe" no retirados que tienen un ticket en estado hecho. [SUPUESTO] Ver docs/pendientes.md, S-08.
+- Avance: proporción de requisitos "debe" (RF y RNF) no retirados que tienen un ticket en estado hecho. Los "debería", los "podría", los pendientes y los supuestos no cuentan; se muestran aparte.
 
 ### Validaciones
 - Campos obligatorios y formato: bloquean el guardado con aviso.

@@ -20,13 +20,14 @@ Dentro de v1:
 - Ver el avance y los huecos, la vista de documento con índice lateral, las tablas desde el frontmatter y la matriz de trazabilidad.
 - Editar Markdown con vista previa, con commit automático por guardado y detección de conflictos con agentes.
 - Ver el diseño de Penpot en solo lectura: vista gráfica o referencia.
+- Diseño en Penpot guiado por la skill reqly-disenar, documentado en docs/diseno/.
 - Capturar requerimientos, notas, pendientes, glosario y ADR.
-- Skills del proyecto para formalizar, migrar y aplicar las reglas de ingeniería.
+- Skills del proyecto para formalizar, migrar, diseñar y aplicar las reglas de ingeniería, instaladas al seleccionar el proyecto.
 - Historial por elemento desde git.
 
 ## Fuera de alcance
 
-- Editar diseños en Penpot.
+- Editar diseños en Penpot desde la interfaz de reqly. El agente sí diseña en Penpot, guiado por la skill reqly-disenar (RF-029).
 - Diagramas Mermaid y HTML animado. Después de v1.
 - Exportar a Word o PDF. Después de v1.
 - Grafo visual de tickets con dependencias. [SUPUESTO] Fuera de v1.
