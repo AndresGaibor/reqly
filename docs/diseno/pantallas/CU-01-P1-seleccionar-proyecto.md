@@ -33,6 +33,7 @@ RF-001, RF-028.
 - cargando: tarjetas en esqueleto.
 - error: banner de aviso "La carpeta no tiene documentos de reqly. No se crea ningún archivo."
 - instalando skills: lista de las skills de reqly con su versión y su estado (instalada, actualizada, o aviso porque la versión instalada es más nueva).
+- ID duplicado: banner de error que muestra el ID repetido y los dos archivos que lo tienen. El proyecto muestra el error y no oculta el resto (RF-017).
 
 ## Disposición
 

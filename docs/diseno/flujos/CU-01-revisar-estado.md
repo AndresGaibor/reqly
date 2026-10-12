@@ -24,18 +24,11 @@ Recorrido de punta a punta del caso de uso CU-01. Cada paso indica la pantalla q
 - A1. Ver el documento como texto continuo: CU-01-P4 (RF-003).
 - A2. Penpot no responde o el frame no se puede mostrar: CU-01-P7, estado "diseño no disponible" (RF-009).
 - A3. Consultar el historial de un requisito: CU-01-P8 (RF-024).
-- A4. Ver los requisitos en tabla: pendiente de diseño (RF-004). No hay pantalla todavía.
+- A4. Ver los requisitos en tabla: CU-01-P9 (RF-004).
 
 ## Errores
 
 - E1. La carpeta no tiene documentos de reqly: CU-01-P1, estado "error" (RF-001).
 - E2. Un agente cambió el archivo en disco: CU-01-P6 (RF-008).
 - E3. Falla una validación al guardar: CU-01-P5, estado "error de validación" (RF-016).
-- E4. Falla el commit: pendiente de diseño. El archivo queda guardado en disco y se muestra el error (S-12). No hay estado de pantalla todavía.
-
-## Pendiente de diseño, fuera de CU-01
-
-- Vista de tablas de elementos (RF-004).
-- Vista de decisiones ADR (RF-023).
-- Configuración de skills (RF-022 y RF-028).
-- Estados de error del commit (E4 de este flujo).
+- E4. Falla el commit: CU-01-P5, estado 'error de commit' (S-12).

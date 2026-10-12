@@ -33,6 +33,8 @@ RF-006, RF-007, RF-016.
 - guardado: estado "Guardado · commit <ID corto>" en color.feedback.success.text.
 - guardando: botón "Guardar" en estado de carga.
 - error de validación: banner de error que indica el campo que falta; el archivo no se guarda (RF-016).
+- advertencia de referencia rota: banner de aviso que indica la referencia que no existe, por ejemplo un RF que no existe. El archivo sí se guardó (RF-016).
+- error de commit: banner de error "No se pudo guardar el commit. El archivo queda guardado en disco." con el botón "Reintentar commit" (S-12).
 
 ## Disposición
 
