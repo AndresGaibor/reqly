@@ -21,8 +21,8 @@ Lista de los elementos [PENDIENTE] y [SUPUESTO] del diseño de reqly, con quién
 | S-13 | Los requerimientos usan el ID REQ-### con el siguiente número libre. | Confirmado |
 | S-14 | La migración y la formalización trabajan en bloques de hasta 5 elementos. | Confirmado |
 | S-15 | to-spec de Matt no se copia: reqly-formalizar cubre la especificación. | Decidido |
-| S-16 | Los tokens viven en docs/diseno/tokens.json en formato DTCG, y Penpot los importa. El repo es la fuente. | Por confirmar |
-| S-17 | El diseño en Penpot usa dos archivos: uno de biblioteca del sistema (Foundations, Atoms, Molecules, Organisms, Templates) y uno de producto con una página por flujo. | Por confirmar |
+| S-16 | Los tokens viven en docs/diseno/tokens.json en formato DTCG, y Penpot los importa. El repo es la fuente. | Confirmado |
+| S-17 | El diseño va en el archivo de Penpot conectado: páginas nuevas para la biblioteca (Foundations, Atoms, Molecules, Organisms, Templates) y una página por flujo. Las páginas existentes (Prueba, Design System, Componentes) no se tocan. | Confirmado |
 
 ## Pendientes
 
@@ -40,10 +40,12 @@ Lista de los elementos [PENDIENTE] y [SUPUESTO] del diseño de reqly, con quién
 | P-10 | Formato de los documentos existentes que se migrarán en cada proyecto. | Usuario propietario, al migrar | Abierto |
 | P-11 | Mecanismo para actualizar una skill fijada en el repo (CU-09). | Diseño técnico | Abierto |
 | P-12 | Esquema definitivo de IDs para requerimientos (REQ-###) y tamaño de bloque en la migración y la formalización. | Usuario propietario | Resuelto |
-| P-13 | Probar reqly-formalizar con un requerimiento real que aporte el usuario. | Usuario propietario | Abierto |
+| P-13 | Probar reqly-formalizar con un requerimiento real que aporte el usuario. | Usuario propietario | Descartado |
 | P-14 | Adaptar to-tickets para que escriba en archivos del repo. Depende de P-06. | Diseño técnico | Abierto |
 | P-15 | Confirmar que la versión de Penpot instalada importa tokens.json sin errores. | Diseño técnico | Abierto |
-| P-16 | Confirmar que el acceso a Penpot de P-01 cubre también al agente cuando diseña. | Usuario propietario | Abierto |
+| P-16 | Acceso del agente a Penpot para diseñar. | Usuario propietario | Resuelto: el MCP de Penpot responde con el proyecto conectado. |
+| P-17 | Usar el archivo de Penpot conectado para la biblioteca y las pantallas; las páginas existentes no se tocan. | Usuario propietario | Resuelto |
+| P-18 | Primer caso de uso a diseñar: CU-01. | Usuario propietario | Resuelto |
 
 ## Riesgos y dependencias
 
