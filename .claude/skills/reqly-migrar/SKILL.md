@@ -13,8 +13,8 @@ version: 1.0.0
 
 1. Antes de empezar, confirma el alcance con el usuario. Sin confirmación no empieces.
 2. Haz un inventario en solo lectura de las fuentes y agrúpalas por tema. No copies contenido sin revisarlo.
-3. Propón el primer bloque de hasta 5 elementos relacionados. [SUPUESTO] Ver docs/pendientes.md, S-14. Presenta el bloque al usuario antes de escribir.
-4. Por cada elemento del bloque aprobado, crea un archivo docs/requerimientos/REQ-###-slug.md. El ID es el siguiente número libre REQ-###. [SUPUESTO] Ver docs/pendientes.md, S-13 y P-12.
+3. Propón el primer bloque de hasta 5 elementos relacionados. Ver docs/pendientes.md, S-14. Presenta el bloque al usuario antes de escribir.
+4. Por cada elemento del bloque aprobado, crea un archivo docs/requerimientos/REQ-###-slug.md. El ID es el siguiente número libre REQ-###. Ver docs/pendientes.md, S-13 y P-12.
 5. Frontmatter de cada requerimiento: id, tipo: requerimiento, estado: abierto, origen (ruta del documento, o archivo y línea del código).
 6. Cuerpo de cada requerimiento: H1 con el ID y un título, y el texto del requerimiento en lenguaje libre. No añadas criterios ni prioridad: eso lo hace la formalización.
 7. Tras cada bloque, haz commit con el mensaje "docs: migra bloque <n> de <origen>" y espera la revisión del usuario antes de seguir.

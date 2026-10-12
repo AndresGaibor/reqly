@@ -15,7 +15,7 @@ Si el archivo no existe o no está abierto, detente y pide al usuario el archivo
 ## Pasos
 
 1. Lee `GLOSSARY.md`, `docs/reglas-de-negocio.md` y los IDs existentes en `docs/requisitos/` y `docs/casos-de-uso/`. Usa solo los términos del glosario.
-2. Propón los requisitos por bloques de hasta 5 elementos relacionados. [SUPUESTO] Ver `docs/pendientes.md`, S-14.
+2. Propón los requisitos por bloques de hasta 5 elementos relacionados. Ver `docs/pendientes.md`, S-14.
 3. Para cada requisito, crea un archivo `docs/requisitos/RF-###-slug.md` o `docs/requisitos/RNF-###-slug.md`. El ID es el siguiente número libre de su tipo.
 4. Para cada caso de uso necesario, crea `docs/casos-de-uso/CU-##-slug.md` con el siguiente número libre.
 5. Verifica la simetría: cada requisito lista sus casos de uso y cada caso de uso lista sus requisitos.

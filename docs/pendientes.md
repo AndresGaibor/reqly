@@ -18,8 +18,8 @@ Lista de los elementos [PENDIENTE] y [SUPUESTO] del diseño de reqly, con quién
 | S-10 | El despliegue es un stack Docker Compose detrás de Traefik, con Sablier para escalar a cero. | Por confirmar al desplegar |
 | S-11 | reqly se levanta al reiniciar la VM, sin intervención manual. | Por confirmar con la configuración de Sablier |
 | S-12 | Si falla un commit al guardar, reqly conserva el archivo guardado en disco y muestra el error. | Por confirmar |
-| S-13 | Los requerimientos usan el ID REQ-### con el siguiente número libre. | Por confirmar |
-| S-14 | La migración y la formalización trabajan en bloques de hasta 5 elementos. | Por confirmar |
+| S-13 | Los requerimientos usan el ID REQ-### con el siguiente número libre. | Confirmado |
+| S-14 | La migración y la formalización trabajan en bloques de hasta 5 elementos. | Confirmado |
 
 ## Pendientes
 
@@ -36,7 +36,8 @@ Lista de los elementos [PENDIENTE] y [SUPUESTO] del diseño de reqly, con quién
 | P-09 | Framework de interfaz además de React, y versiones exactas. | Diseño técnico | Abierto |
 | P-10 | Formato de los documentos existentes que se migrarán en cada proyecto. | Usuario propietario, al migrar | Abierto |
 | P-11 | Mecanismo para actualizar una skill fijada en el repo (CU-09). | Diseño técnico | Abierto |
-| P-12 | Esquema definitivo de IDs para requerimientos (REQ-###) y tamaño de bloque en la migración y la formalización. | Usuario propietario | Abierto |
+| P-12 | Esquema definitivo de IDs para requerimientos (REQ-###) y tamaño de bloque en la migración y la formalización. | Usuario propietario | Resuelto |
+| P-13 | Probar reqly-formalizar con un requerimiento real que aporte el usuario. | Usuario propietario | Abierto |
 
 ## Riesgos y dependencias
 
